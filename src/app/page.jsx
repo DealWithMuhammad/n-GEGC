@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main className="">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi
+    <h1 className="">
+      Lorem ipsum dol or sit amet consectetur adipisicing elit. Ducimus nisi
       vitae soluta ratione quasi officia facilis odit fugit molestiae sequi!
       Sequi minima ipsa delectus voluptatum, enim ullam aliquid amet aperiam
       unde earum aut. Sunt, distinctio officia! Nulla provident qui fugit, ipsum
@@ -43,6 +43,6 @@ export default function Home() {
       iste animi mollitia aperiam repellendus illum non esse fugit id nostrum.
       Incidunt laudantium eveniet tempore quisquam, deserunt hic iusto debitis
       vitae eos ipsum omnis doloribus quaerat esse eum earum numquam. Iste?
-    </main>
+    </h1>
   );
 }
