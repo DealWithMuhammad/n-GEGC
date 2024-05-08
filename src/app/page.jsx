@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Activites />
-      <TeamSection />
       <CoreFeature />
+      <TeamSection />
+      <Activites />
     </>
   );
 }

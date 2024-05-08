@@ -1,5 +1,5 @@
 const Activites = () => {
-  return <div>hello wolrd</div>;
+  return <div></div>;
 };
 
 export default Activites;
