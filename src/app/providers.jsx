@@ -11,9 +11,7 @@ export function Providers({ children }) {
   return (
     // <MantineProvider>
     <ChakraProvider>
-      <NextUIProvider>
-        <ThemeUIProvider theme={theme}>{children}</ThemeUIProvider>
-      </NextUIProvider>
+      <NextUIProvider>{children}</NextUIProvider>
     </ChakraProvider>
     // </MantineProvider>
   );

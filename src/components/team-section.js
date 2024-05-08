@@ -4,6 +4,9 @@ import SectionHeader from "./section-header";
 import TeamCard from "./team-card";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
+import { ThemeUIProvider } from "theme-ui";
+import theme from "../theme/index";
+
 import Member1 from "../assets/team/member1.png";
 import Member2 from "../assets/team/member2.png";
 import Member3 from "../assets/team/member-3.png";
@@ -178,27 +181,29 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <section>
-      <Container>
-        <SectionHeader
-          slogan="Our Team"
-          title="The most qualified and talented individuals"
-        />
+    <ThemeUIProvider theme={theme}>
+      <section>
+        <Container>
+          <SectionHeader
+            slogan="Our Team"
+            title="The most qualified and talented individuals"
+          />
 
-        <Grid sx={styles.grid}>
-          {data.map((item) => (
-            <TeamCard
-              key={item.id}
-              src={item.imgSrc}
-              altText={item.altText}
-              title={item.title}
-              designation={item.designation}
-              social={item.socialProfile}
-            />
-          ))}
-        </Grid>
-      </Container>
-    </section>
+          <Grid sx={styles.grid}>
+            {data.map((item) => (
+              <TeamCard
+                key={item.id}
+                src={item.imgSrc}
+                altText={item.altText}
+                title={item.title}
+                designation={item.designation}
+                social={item.socialProfile}
+              />
+            ))}
+          </Grid>
+        </Container>
+      </section>
+    </ThemeUIProvider>
   );
 }
 
