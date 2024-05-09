@@ -130,7 +130,7 @@ export default {
 
     subTitle: {
       fontSize: [0, "13px", null, "14px"],
-      color: "primary",
+      color: "#9B5DE5",
       textAlign: "center",
       letterSpacing: ["1.5px", null, "2px"],
       textTransform: "uppercase",
@@ -278,7 +278,7 @@ export default {
       variant: "buttons.defaultBtn",
       border: "2px solid",
       borderColor: "primary",
-      color: "primary",
+      color: "#9B5DE5",
       bg: "transparent",
       padding: ["10px 15px", null, "15px 30px"],
       "&:hover": {

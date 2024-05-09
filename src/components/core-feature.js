@@ -7,6 +7,7 @@ import theme from "../theme/index";
 
 import FeatureThumb from "../assets/core-feature.png";
 import shapePattern from "../assets/shape-pattern2.png";
+import SectionHeader from "./section-header";
 
 const data = {
   subTitle: "Intro",
@@ -20,6 +21,10 @@ const data = {
 export default function CoreFeature() {
   return (
     <ThemeUIProvider theme={theme}>
+      <SectionHeader
+        slogan="Who are we?"
+        title="Goal of Girls' Sports Galaxy Club"
+      />
       <section sx={{ variant: "section.coreFeature" }}>
         <Container sx={styles.containerBox}>
           <Box sx={styles.contentBox}>

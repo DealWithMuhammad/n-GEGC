@@ -37,10 +37,10 @@ const styles = {
     "&:hover": {
       boxShadow: ["none", null, "0 4px 10px rgba(39, 83, 123, 0.12)"],
       ".info__name": {
-        color: "primary",
+        color: "#9B5DE5",
       },
       ".info__designation": {
-        color: "primary",
+        color: "#9B5DE5",
       },
       ".social__share": {
         opacity: 1,
@@ -57,7 +57,7 @@ const styles = {
     height: ["70px", "80px", "100px", null, null, "130px"],
     flexShrink: 0,
     border: "2px solid",
-    borderColor: "primary",
+    borderColor: "#9B5DE5",
     borderRadius: "50%",
   },
   infoWrapper: {
@@ -93,13 +93,13 @@ const styles = {
     pt: 2,
     a: {
       fontSize: [0, 1, null, 2],
-      color: ["text", null, "primary"],
+      color: ["text", null, "#9B5DE5"],
       lineHeight: "1em",
       my: [0, null, "-2px"],
       px: 1,
       transition: "all 0.25s",
       "&:hover": {
-        color: ["primary", null, "text"],
+        color: ["#9B5DE5", null, "text"],
       },
     },
   },

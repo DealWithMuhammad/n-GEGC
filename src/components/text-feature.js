@@ -26,7 +26,7 @@ export default function TextFeature({
 
       {btnName && (
         <Link href={btnURL} variant="default">
-          <Button variant="primary" aria-label={btnName}>
+          <Button variant="#9B5DE5" aria-label={btnName}>
             {btnName}
           </Button>
         </Link>
@@ -52,7 +52,7 @@ const styles = {
     mt: -1,
     subTitle: {
       fontSize: [0, null, 1],
-      color: "primary",
+      color: "#9B5DE5",
       textTransform: "uppercase",
       fontWeight: "700",
       mb: [2, 3],
