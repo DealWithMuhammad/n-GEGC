@@ -19,8 +19,8 @@ export default {
       dark: {
         text: "#fff",
         background: "#000",
-        primary: "#0cf",
-        secondary: "#09c",
+        primary: "#9B5DE5",
+        secondary: "#9B5DE5",
         muted: "#111",
       },
     },
