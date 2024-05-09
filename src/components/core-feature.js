@@ -5,8 +5,6 @@ import TextFeature from "./text-feature";
 import { ThemeUIProvider } from "theme-ui";
 import theme from "../theme/index";
 
-import FeatureThumb from "../assets/core-feature.png";
-import shapePattern from "../assets/shape-pattern2.png";
 import SectionHeader from "./section-header";
 
 const data = {
@@ -15,6 +13,14 @@ const data = {
   description:
     "GEGC: Your hub for healing, growth, and empowerment. Join our vibrant community fostering resilience, personal development, and genuine connections for refugee and local Malaysian youths alike.",
   btnName: "Get Started",
+  btnURL: "#",
+};
+const data2 = {
+  subTitle: "Our Goal",
+  title: "Helping Women ",
+  description:
+    "GEGC: Your hub for healing, growth, and empowerment. Join our vibrant community fostering resilience, personal development, and genuine connections for refugee and local Malaysian youths alike.",
+  btnName: "Learn More",
   btnURL: "#",
 };
 
@@ -27,13 +33,17 @@ export default function CoreFeature() {
       />
       <section sx={{ variant: "section.coreFeature" }}>
         <Container sx={styles.containerBox}>
+          <Box sx={styles.thumbnail}>
+            <Image src={"./benefit-one.png"} alt="Thumbnail" />
+            <Box sx={styles.shapeBox}></Box>
+          </Box>
           <Box sx={styles.contentBox}>
             <TextFeature
               subTitle={data.subTitle}
               title={
                 <>
                   {data.title}{" "}
-                  <span className="font-bold  md:text-4xl bg-gradient-to-r from-[#9B5DE5] via-[#3ABAC6] to-[#9B5DE5] bg-clip-text text-transparent">
+                  <span className="font-bold text-2xl  md:text-4xl bg-gradient-to-r from-[#9B5DE5] via-[#3ABAC6] to-[#9B5DE5] bg-clip-text text-transparent">
                     GEGC
                   </span>
                 </>
@@ -43,8 +53,32 @@ export default function CoreFeature() {
               btnURL={data.btnURL}
             />
           </Box>
-          <Box sx={styles.thumbnail}>
-            <Image src={"./about.jpg"} alt="Thumbnail" />
+        </Container>
+      </section>
+      <section className="mt-10" sx={{ variant: "section.coreFeature" }}>
+        <Container sx={styles.containerBox}>
+          <Box sx={styles.contentBox}>
+            <TextFeature
+              subTitle={data2.subTitle}
+              title={
+                <>
+                  {data2.title}{" "}
+                  <span className="font-bold text-2xl  md:text-4xl bg-gradient-to-r from-[#9B5DE5] via-[#3ABAC6] to-[#9B5DE5] bg-clip-text text-transparent">
+                    GROW
+                  </span>
+                </>
+              }
+              description={data2.description}
+              btnName={data2.btnName}
+              btnURL={data2.btnURL}
+            />
+          </Box>
+          <Box>
+            <Image
+              className="w-full"
+              src={"./benefit-two.png"}
+              alt="Thumbnail"
+            />
             <Box sx={styles.shapeBox}></Box>
           </Box>
         </Container>

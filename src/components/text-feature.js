@@ -61,7 +61,7 @@ const styles = {
     },
     title: {
       fontSize: [
-        "2.25rem",
+        "1.5rem",
         null,
         "28px",
         "30px",
