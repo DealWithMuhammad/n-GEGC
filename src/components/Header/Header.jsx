@@ -40,7 +40,7 @@ export default function Header() {
         ))}
         <NavbarItem className="hidden md:flex">
           <Button
-            className="text-[16px] text-white rounded-none bg-[#3ABAC6]  py-2 px-8"
+            className="text-[16px] text-white rounded-3xl bg-[#9B5DE5]  py-2 px-8"
             as={Link}
             color="#FFD1DC"
             href="#"
