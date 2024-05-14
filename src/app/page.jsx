@@ -3,14 +3,20 @@ import TeamSection from "@/components/team-section";
 import CoreFeature from "@/components/core-feature";
 import Hero from "@/components/Hero/Hero";
 import Footer from "@/components/footer";
+import { CanvasRevealEffectDemo2 } from "@/components/Static";
 
 export default function Home() {
   return (
     <>
-      <Hero />
+      <div className="w-full mb-10  bg-grid-black/[0.1] relative ">
+        {/* Radial gradient for the container to give a faded look */}
+        <Hero />
+      </div>
       <CoreFeature />
+      <CanvasRevealEffectDemo2 />
       <TeamSection />
       <Activites />
+
       <Footer />
     </>
   );
