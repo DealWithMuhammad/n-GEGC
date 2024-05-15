@@ -5,7 +5,7 @@ export default function HomeOurVision() {
     <section className="bg-[#9B5DE5] my-14 py-14">
       <article className="container grid lg:grid-cols-[1fr,625px] gap-10 items-center">
         <div className="mx-5 md:mx-10">
-          <h2 className="text-secondary-50 text-2xl md:text-5xl">
+          <h2 className="text-secondary-50 font-semibold text-2xl md:text-5xl">
             Our Mission
           </h2>
           <p className="text-secondary-100 max-w-[35rem]">
