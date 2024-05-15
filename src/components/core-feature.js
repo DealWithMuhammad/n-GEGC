@@ -37,7 +37,7 @@ export default function CoreFeature() {
             <Image src={"./benefit-one.png"} alt="Thumbnail" />
             <Box sx={styles.shapeBox}></Box>
           </Box>
-          <Box sx={styles.contentBox}>
+          <Box className="font-sans font-extrabold" sx={styles.contentBox}>
             <TextFeature
               subTitle={data.subTitle}
               title={
