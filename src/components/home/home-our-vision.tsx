@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HomeOurVision() {
   return (
-    <section className="bg-[#9B5DE5] my-14 py-14">
+    <section className="bg-[#9B5DE5] my-14 py-7">
       <article className="container grid lg:grid-cols-[1fr,625px] gap-10 items-center">
         <div className="mx-5 md:mx-10">
           <h2 className="text-secondary-50 font-semibold text-2xl md:text-5xl">
