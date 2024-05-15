@@ -22,7 +22,7 @@ export default function HomeOurVision() {
               <span className="bg-primary-900 py-[2px] px-1 text-primary-100">
                 SDG 5
               </span>
-              <h4 className="text-primary-800 text-2xl md:text-3xl uppercase lg:max-w-[11.625rem]">
+              <h4 className="text-[#af3753] py-2 text-2xl md:text-3xl uppercase lg:max-w-[11.625rem]">
                 gender equality
               </h4>
             </div>
