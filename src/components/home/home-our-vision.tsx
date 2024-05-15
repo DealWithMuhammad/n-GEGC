@@ -23,7 +23,7 @@ export default function HomeOurVision() {
                 SDG 5
               </span>
               <h4 className="text-[#af3753] py-2 text-2xl md:text-3xl uppercase lg:max-w-[11.625rem]">
-                gender equality
+                Women Growth
               </h4>
             </div>
             <div className="flex lg:flex-1 justify-end"></div>
