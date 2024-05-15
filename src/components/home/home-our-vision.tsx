@@ -19,7 +19,7 @@ export default function HomeOurVision() {
         <div className="grid sm:max-lg:grid-cols-3 lg:grid-cols-2 [&>div]:pt-4 [&>div]:px-4">
           <div className="flex flex-col max-lg:justify-between lg:flex-row lg:items-center gap-4 bg-[#FFD1DC] lg:col-span-2">
             <div className="">
-              <span className="bg-primary-900 py-[2px] px-1 text-primary-100">
+              <span className="bg-[#af3753] py-[2px] px-1 text-primary-100">
                 SDG 5
               </span>
               <h4 className="text-[#af3753] py-2 text-2xl md:text-3xl uppercase lg:max-w-[11.625rem]">
