@@ -4,6 +4,7 @@ import CoreFeature from "@/components/core-feature";
 import Hero from "@/components/Hero/Hero";
 import Footer from "@/components/footer";
 import { CanvasRevealEffectDemo2 } from "@/components/Static";
+import HomeOurVision from "@/components/home/home-our-vision";
 
 export default function Home() {
   return (
@@ -12,9 +13,11 @@ export default function Home() {
         {/* Radial gradient for the container to give a faded look */}
         <Hero />
       </div>
+
       <CoreFeature />
-      <CanvasRevealEffectDemo2 />
+      <HomeOurVision />
       <TeamSection />
+      <CanvasRevealEffectDemo2 />
       <Activites />
 
       <Footer />
