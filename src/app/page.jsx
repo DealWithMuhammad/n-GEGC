@@ -5,6 +5,7 @@ import Hero from "@/components/Hero/Hero";
 import Footer from "@/components/footer";
 import { CanvasRevealEffectDemo2 } from "@/components/Static";
 import HomeOurVision from "@/components/home/home-our-vision";
+import HomeInitiatives from "../components/home/home-initiatives";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <CoreFeature />
       <HomeOurVision />
       <TeamSection />
+      <HomeInitiatives />
       <CanvasRevealEffectDemo2 />
       <Activites />
 
