@@ -13,11 +13,10 @@ export default function HomeInitiatives() {
             Our Initiatives
           </h2>
           <p className="text-[#af3753] mt-4">
-            At The Free Tribe Network, we offer a range of core programs and
-            services to support reproductive wellness, health seeking and
-            reporting behaviors, and improve reproductive health and family
-            well-being. Our mission is to empower individuals and communities to
-            make informed decisions about their reproductive health and rights.
+            GEGC supports refugee girls through personal development activities
+            such as sports, arts, leadership training, and mental health
+            workshops. They foster community by connecting refugees with local
+            Malaysian youth, promoting shared experiences and mutual growth.
           </p>
         </div>
 
