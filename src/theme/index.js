@@ -36,13 +36,14 @@ export default {
   ],
   fonts: {
     body: "'DM Sans', sans-serif",
-    heading: "'DM Sans', sans-serif",
+    heading:
+      "ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
   },
   fontSizes: [12, 15, 16, 18, 20, 22, 24, 28, 32, 36, 42, 48, 52, 64],
   fontWeights: {
     body: "normal",
-    heading: 500,
-    bold: 700,
+    heading: 900,
+    bold: 900,
   },
   lineHeights: {
     body: 1.8,
@@ -120,11 +121,11 @@ export default {
     marginBottom: ["50px", null, "60px", null, null, "65px", null, "80px"],
     mx: "auto",
     title: {
-      fontSize: ["24px", null, "28px", null, null, "32px", null, "36px"],
+      fontSize: ["24px", null, "28px", null, null, "2.5rem", null, "36px"],
       color: "heading",
       lineHeight: [1.3, null, null, 1.25],
       textAlign: "center",
-      fontWeight: "700",
+      fontWeight: "800",
       letterSpacing: "-.5px",
     },
 
@@ -134,7 +135,7 @@ export default {
       textAlign: "center",
       letterSpacing: ["1.5px", null, "2px"],
       textTransform: "uppercase",
-      fontWeight: "700",
+      fontWeight: "800",
       mb: 2,
       lineHeight: 1.5,
     },
@@ -161,7 +162,7 @@ export default {
         "66px",
       ],
       lineHeight: [1.3, null, null, null, null, 1.2],
-      fontWeight: 700,
+      fontWeight: 800,
       mb: [4, null, null, null, null, 5],
     },
     heroSecondary: {

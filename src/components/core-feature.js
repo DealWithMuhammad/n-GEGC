@@ -43,7 +43,7 @@ export default function CoreFeature() {
               title={
                 <>
                   {data.title}{" "}
-                  <span className="font-bold text-2xl  md:text-4xl bg-gradient-to-r from-[#9B5DE5] via-[#3ABAC6] to-[#9B5DE5] bg-clip-text text-transparent">
+                  <span className="font-extrabold text-2xl   md:text-4xl bg-gradient-to-r from-[#9B5DE5] via-[#3ABAC6] to-[#9B5DE5] bg-clip-text text-transparent">
                     GEGC
                   </span>
                 </>
@@ -63,7 +63,7 @@ export default function CoreFeature() {
               title={
                 <>
                   {data2.title}{" "}
-                  <span className="font-bold text-2xl  md:text-4xl bg-gradient-to-r from-[#9B5DE5] via-[#3ABAC6] to-[#9B5DE5] bg-clip-text text-transparent">
+                  <span className="font-extrabold text-2xl  md:text-4xl bg-gradient-to-r from-[#9B5DE5] via-[#3ABAC6] to-[#9B5DE5] bg-clip-text text-transparent">
                     GROW
                   </span>
                 </>

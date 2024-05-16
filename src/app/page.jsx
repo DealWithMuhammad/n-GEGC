@@ -19,9 +19,9 @@ export default function Home() {
       <CoreFeature />
       <HomeOurVision />
       <TeamSection />
+      <HomeInitiatives />
       <Blogs />
 
-      <HomeInitiatives />
       <CanvasRevealEffectDemo2 />
       <Activites />
       <Footer />
