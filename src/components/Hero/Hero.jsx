@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="h-[90vh] flex justify-center items-center text-center px-10 md:px-32">
       <div>
-        <h1 className="font-bold text-3xl md:text-5xl">
+        <h1 className="font-sans font-extrabold text-2xl md:text-5xl ">
           Empowerment Awaits at{"  "}
           <span className=" bg-gradient-to-r from-[#9B5DE5] via-[#3ABAC6] to-[#9B5DE5] bg-clip-text text-transparent">
             Girls' Sports Galaxy Club
