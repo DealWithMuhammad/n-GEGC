@@ -8,7 +8,7 @@
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
-      "image": "https://palazzo-altura-di-maria.de/file/i/cb533cbc490177112.png"
+      "image": "https://images.unsplash.com/photo-1505155485412-30b3a45080ec?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVmdWdlZSUyMHdvbWVufGVufDB8fDB8fHww"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "price": 109.99,
       "instructor": "Jane Smith",
       "isFeatured": true,
-      "image": "https://palazzo-altura-di-maria.de/file/i/223e39a3499898112.jpeg"
+      "image": "https://images.unsplash.com/photo-1530869995783-7b7c98652205?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBvb3IlMjBnaXJsfGVufDB8fDB8fHww"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "price": 119.99,
       "instructor": "Emily Johnson",
       "isFeatured": true,
-      "image": "https://palazzo-altura-di-maria.de/file/i/27302779b55037312.png"
+      "image": "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBvb3IlMjBnaXJsfGVufDB8fDB8fHww"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "price": 129.99,
       "instructor": "Mike Brown",
       "isFeatured": false,
-      "image": "https://palazzo-altura-di-maria.de/file/i/5fb73428e75077112.png"
+      "image": "https://images.unsplash.com/photo-1560622972-b7d7ca2dd95c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHBvb3IlMjBnaXJsfGVufDB8fDB8fHww"
     }
   ]
 }
