@@ -31,11 +31,17 @@ const styles = {
     flexDirection: "column",
     py: [0, null, 4, 5, 6],
     px: [2, null, 6, 7],
+    mx: 2,
     transition: "ease-in-out 0.4s",
     borderRadius: "8px",
+    boxShadow: ["0 4px 10px rgba(39, 83, 123, 0.4)"],
     position: "relative",
+    ".info__designation": {
+      color: "#000",
+    },
     "&:hover": {
-      boxShadow: ["none", null, "0 4px 10px rgba(39, 83, 123, 0.12)"],
+      boxShadow: ["0 4px 10px rgba(39, 83, 123, 1)"],
+
       ".info__name": {
         color: "#9B5DE5",
       },
@@ -89,13 +95,13 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     transition: "all 0.25s",
-    opacity: [1, null, 0],
+    opacity: [0, null, 1],
     pt: 2,
     a: {
       fontSize: [0, 1, null, 2],
       color: ["text", null, "#9B5DE5"],
       lineHeight: "1em",
-      my: [0, null, "-2px"],
+      my: [0, null, "4px"],
       px: 1,
       transition: "all 0.25s",
       "&:hover": {
