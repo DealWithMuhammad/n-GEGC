@@ -7,6 +7,7 @@ import { CanvasRevealEffectDemo2 } from "@/components/Static";
 import HomeOurVision from "@/components/home/home-our-vision";
 import HomeInitiatives from "../components/home/home-initiatives";
 import Blogs from "@/components/home/blogs";
+import Support from "@/components/shared/support";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Blogs />
 
       <CanvasRevealEffectDemo2 />
+      <Support />
       <Activites />
       <Footer />
     </>
