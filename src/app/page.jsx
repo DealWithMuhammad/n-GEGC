@@ -8,6 +8,7 @@ import HomeOurVision from "@/components/home/home-our-vision";
 import HomeInitiatives from "../components/home/home-initiatives";
 import Blogs from "@/components/home/blogs";
 import Support from "@/components/shared/support";
+import Contact from "@/components/layout/contact";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <CanvasRevealEffectDemo2 />
       <Support />
       <Activites />
+      <Contact />
       <Footer />
     </>
   );

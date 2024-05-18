@@ -8,7 +8,7 @@ export default function Support() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-9 md:gap-18 p-10 pb-0 md:p-0 container ">
         <div className="order-last md:order-first overflow-hidden">
           <Image
-            src="/support.jpg"
+            src="https://images.unsplash.com/photo-1533285962792-0c3c5e9cb0d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBvb3IlMjBnaXJsfGVufDB8fDB8fHww"
             title="support"
             alt="support"
             width={500}
