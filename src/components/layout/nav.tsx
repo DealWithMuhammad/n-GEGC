@@ -1,5 +1,5 @@
 // "use client";
-// import ContentImageClient from "@/components/shared/content-image-client";
+// // import ContentImageClient from "@/components/shared/content-image-client";
 // import Link from "next/link";
 // import { Link as ScrollLink } from "react-scroll";
 // import { Button } from "@/components/ui/button";
@@ -27,7 +27,7 @@
 //           )}
 //         >
 //           <Link href="/">
-//             <ContentImageClient title="logo" width={60} height={57} />
+//             {/* <ContentImageClient title="logo" width={60} height={57} /> */}
 //           </Link>
 //           <div
 //             className={cn(
