@@ -42,7 +42,7 @@ const Hero = () => {
   return (
     <>
       <section
-        className="bg-cover flex items-center bg-center  h-[440px] lg:h-[580px] w-full text-white tracking-wider relative"
+        className="bg-cover flex items-center bg-center  h-[440px] lg:h-[540px] w-full text-white tracking-wider relative"
         style={{
           backgroundImage:
             "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/about.jpg')",
@@ -52,8 +52,8 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-2/3  p-8 rounded-lg">
               <Heading
-                fontSize={{ base: "xl", md: "5xl" }}
-                fontWeight={800}
+                fontSize={{ base: "2xl", md: "5xl" }}
+                fontWeight={700}
                 className="mb-4.5 text-white"
               >
                 {heroContent.title}
