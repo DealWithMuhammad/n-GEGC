@@ -7,8 +7,8 @@ export default function HistoryMissionVision() {
   return (
     <section className="py-10 lg:pt-28 mx-10">
       <div className="container flex flex-col gap-8">
-        <article className="h2-gap" id="our-history">
-          <h2 className="text-black text-2xl my-4 md:text-5xl font-sans font-bold">
+        <article className="" id="our-history">
+          <h2 className="text-black font-sans my-4 font-extrabold text-2xl md:text-5xl">
             Our History
           </h2>
           <div className="text-description flex flex-col gap-3 [&_a]:underline">
